@@ -6,50 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trudy Allred - WDD 230 - Web Frontend Development</title>
-    <meta name="author" content="Trudy Allred" />
-    <meta name="description" content="WDD 230 - Web Frontend Development Trudy Allred course assignment portal"/>
+    <meta name="author" content="Trudy Allred">
+    <meta name="description" content="WDD 230 - Web Frontend Development Trudy Allred course assignment portal">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?famil=Roboto&display=swap">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?famil=Roboto&display=swap">
 </head>
 <body>
     <header>
-        <img src="images\TrudyAllred.jpeg" alt="profile image">
+        <img src="images/TrudyAllred.jpeg" alt="profile image">
         <h1>Trudy Allred</h1>
-        <nav>
-            <ul>
-                <li><a class=button href="http://#">Home</a></li>
-                <li><a class=button href="http://Chamber">Chamber</a></li>
-                <li><a class=button href="http://SitePlan">Site Plan</a></li>
-                <li><a class=button href="http://Form">Form</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="http://Home">Home</a></li>
+            <li><a href="http://Chamber">Chamber</a></li>
+            <li><a href="http://SitePlan">Site Plan</a></li>
+            <li><a href="http://Form">Form</a></li>
+        </ul>
+    </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
+        <hr>
         <section class="card"> 
             <h3>Learning Activities</h3>
-            <ul class="padding">
-                <li class="left">
-                    <a href="">Week 01: </a>
-                </li>
-                <li class="left">
-                    <a href="">Week 02: </a>
-                </li>
-                <li class="left">
-                    <a href="">Week 03: </a>
-                </li>
-                <li class="left">
-                    <a href="">Week 04: </a>
-                </li>
-                <li class="left">
-                    <a href="">Week 05: </a>
-                </li>
-                <li class="left">
-                    <a href="">Week 06: </a>
-                </li>
+            <ul>
+                <li class="left">Week 01: <a href=""></a></li>
+                <li class="left">Week 02: <a href=""></a></li>
+                <li class="left">Week 03: <a href=""></a></li>
+                <li class="left">Week 04: <a href=""></a></li>
+                <li class="left">Week 05: <a href=""></a></li>
+                <li class="left">Week 06: <a href=""></a></li>
             </ul>
         </section>
         <section class="card">
@@ -60,10 +49,11 @@
         </section>
     </main>
     <footer>
-        <p>&copy;</p>
+        <p id="year">&copy; 2023</p>
         <p>Trudy Allred</p>
         <p>Colorado</p>
-        <p id="lastModified">Last Modification: </p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
