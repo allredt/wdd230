@@ -3,3 +3,107 @@ grid-template: auto 1fr auto / auto 1fr auto
 
 repeate grid
 grid-template-columns: repeat(12, 1fr) */
+
+body{
+    display:grid;
+    grid-gap: 1rem;
+    font-family: 'Roboto', sans-serif;
+    max-width: 640px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.25rem;  
+    text-align: center;
+}
+
+header {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    font-size: 30px;
+    background-color: #e0f2e9;
+    overflow: hidden;
+    border: 1px solid #bbb;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    display:grid;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #bbb;
+}
+
+footer {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #bbb;
+}
+
+img{
+    margin: 10px;
+    max-width: 125px;
+    padding: 10px 5px 10px 5px;
+    align-content: center;
+}
+
+nav{
+    grid-column: 1/3;
+    display: block;
+    background-color: #ceb5a7;
+    text-align: center;
+    border: 1px solid #bbb;
+}
+
+a:link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.button{
+    background-color: #ceb5a7;
+}
+
+.button:hover {
+    background-color: #a17c6b;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+/* .card{
+}  */
+
+h3{
+    font-size: 30px;
+    background-color: #5b7b7a;
+    border: 1px solid #bbb;
+    color: white;
+    padding: .5rem;
+    margin: 0px;
+}
+
+.padding{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.left{
+    text-align: left;
+}
