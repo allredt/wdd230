@@ -88,9 +88,11 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: white;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
