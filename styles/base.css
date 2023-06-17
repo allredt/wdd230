@@ -46,7 +46,7 @@ h1{
 div{
     display: flex;
     justify-self: center;
-};
+}
 
 nav{
     margin: 0 auto;
@@ -226,12 +226,12 @@ footer p{
     color: white;
 }
 
+#mode {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
-#mode {
-	position: absolute;
-	top: 1rem;
-	left: 1rem;
-	font-size: 1.5rem;
-	cursor: pointer;
 }

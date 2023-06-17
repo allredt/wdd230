@@ -42,7 +42,7 @@
     div{
         display: flex;
         justify-self: center;
-    };
+    }
 
     .navigation{
         background-color: #ceb5a7;
