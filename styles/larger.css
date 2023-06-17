@@ -18,7 +18,7 @@
         grid-template-columns: .5fr 1fr .5fr;
         align-items: center;
         justify-content: center;
-        background-color: #bfb7cc;
+        background-color: #ceb5a7;
         border: 1px solid #bbb;
     }
 
@@ -138,12 +138,12 @@
     footer {
         padding: 1em;
         border: 1px solid #bbb;
-        background-color: #5b7b7a
+        background-color: #ceb5a7
     }
     
     footer p{
         display: inline;
-        color: white;
+        color: black;
         padding: 1em;
         align-content: center;
     }
@@ -152,5 +152,13 @@
         display: block;
         grid-row: 2/3;
         margin: 0;
+    }
+
+    #mode {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
 }

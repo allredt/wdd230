@@ -16,15 +16,9 @@ header {
     grid-template-columns: .5fr 1fr .5fr;
     align-items: center;
     justify-content: center;
-    background-color: #bfb7cc;
+    background-color: #ceb5a7;
     border: 1px solid #bbb;
 }
-
-/* div{
-    display: flex;
-    grid-column: 2/3;
-    align-self: end;
-    }; */
 
 img{
     display: flex;
@@ -211,11 +205,11 @@ footer {
     display: block;
     overflow: hidden;
     border: 1px solid #bbb;
-    background-color: #5b7b7a;
+    background-color: #ceb5a7;
 }
 
 footer p{
-    color: white;
+    color: black;
     padding: 1em;
     align-content: center;
     margin: 0;
