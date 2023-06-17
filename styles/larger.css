@@ -3,21 +3,25 @@
     body{
         font-family: 'Roboto', sans-serif;
         display:grid;
-        margin: 1rem auto;
+        margin: 0 auto;
         padding: 1rem;
         font-size: 1.25rem;  
         text-align: center;
     }
+    
+	#menu {
+		display: none; /* hide hamburger button */
+	}
 
     header {
         display: grid;
-        grid-template-columns: .5fr 1fr;
+        grid-template-columns: .5fr 1fr .5fr;
         align-items: center;
         justify-content: center;
         background-color: #bfb7cc;
         border: 1px solid #bbb;
     }
-    
+
     img{
         display: flex;
         margin: 10px;
@@ -34,6 +38,16 @@
         padding: 00;
         margin: auto 1em;
     }
+
+    div{
+        display: flex;
+        justify-self: center;
+    };
+
+    .navigation{
+        background-color: #ceb5a7;
+    }
+
     nav{
         background-color: #ceb5a7;
         margin: 0 auto;
@@ -64,8 +78,8 @@
         color: white;
     }
 
-    .active{
-        color: #3c887e;
+    .active::before{
+        content: '►';
     }
 
     h2{
