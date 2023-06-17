@@ -15,19 +15,18 @@
 
     header {
         display: grid;
-        grid-template-columns: .5fr 1fr .5fr;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: center;
         background-color: #ceb5a7;
-        border: 1px solid #bbb;
     }
 
     img{
         display: flex;
         margin: 10px;
         max-width: 125px;
-        padding: 10px 5px 10px 5px;
         justify-self: right;
+        box-shadow: 5px 5px 10px black;
     }
 
     h1{
