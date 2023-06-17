@@ -46,8 +46,5 @@ button.addEventListener('click', function() {
     } else {
         document.querySelector('#favchap').focus();
     }
-}
-        
-
-);
+});
 
