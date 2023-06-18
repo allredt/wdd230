@@ -10,8 +10,6 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/Image/heroImages/Quincy-Web.jpg">
     <meta property="og:url" content="https://allredt.github.io/wdd230/chamber">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -19,23 +17,50 @@
 </head>
 <body>
     <header>
-        
+        <h1>Aurora Chamber of Commerce</h1>
+
     </header>
     <nav>
-
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="https://allredt.github.io/wdd230/chamber/index.html" class="active">Home</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/">Discover</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/">Directory</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/">Join</a></li>
+        </ul>   
     </nav>
     <main>
-
+        <img id="hero-img" src="images/hero.jpg" alt="Open for business sign">
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Details here</p>
+        </section>
+        <section class=weather> 
+            <h3>Weather</h3>
+            <p>Details here</p>
+        </section>
+        <section class="action"> 
+            <h2>Call to Action</h2>
+            <p>Details here</p>
+        </section>
+        <hr>
+        <section class="spotlight"> 
+            <h2>Spotlight</h2>
+            <p>Details here</p>
+        </section>
     </main>
     <footer>
-        <p>Contact Us <br>
-            303-555-5555 <br>
-            Fax: 303-555-5551</p>
-        <p>Contact Us</p>
-        <p id="year"></p>
-        <p>Trudy Allred</p>
-        <p>WDD-230</p>
-        <p id="lastModified"></p>
+        <section class="contact">
+            <p class="contact">Contact Us <br>
+                303-555-5555 <br>
+                Fax: 303-555-5551</p>
+        </section>
+        <section class="details"></section>
+            <p id="year"></p>
+            <p>Trudy Allred</p>
+            <p>WDD-230</p>
+            <p id="lastModified"></p>
+        </section>
     </footer>
     <script src="scripts/chamber.js"></script>
 </body>

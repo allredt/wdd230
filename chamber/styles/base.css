@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+    /* color/font pallet
+        
+        header/footer background: #9BC1BC;
+        header/footer text: #172623;
+        emphasis background: #AAD4EA;
+        emphasis text: #032D4E;
+        body text:#4F4044
+
+        heading-font: Martel, Garmond, serif;
+        paragraph-font: Hind Siliguri, Helvetica, sans-serif;
+
+        nav-link-color: #172623;
+        nav-background-color: #9BC1BC;
+        nav-hover-link-color: white;
+        nav-hover-background-color: #172623;
+     */
+
+body{
+    font-family: Martel, Garmond, serif;
+    display:grid;
+    min-width: 400px;
+    font-size: 1.25rem;  
+    text-align: center;
+}
+
+header {
+    display: block;
+    text-align: left;
+    color: #172623;
+    background-color: #9BC1BC;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    display: block;
+    font-size: 1.5rem;
+    justify-content: left;
+    margin: 1rem 1rem;
+}
+
+nav{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* small view navigation */
+#menu {
+    font-size: 1.5rem;
+    border: 0px solid #172623;
+    padding: 3px 7px 6px;
+    background-color: #9BC1BC;
+    color: #172623;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #9BC1BC;
+    margin: 0;
+    padding: 0;
+    color: #172623;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #172623;
+}
+
+.navigation li a:hover {
+    background-color: #172623;
+    color: white;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
+.active::before{
+    content: '►';
+}
+
+/* small main */
+main {
+    display:block;
+    color: #4F4044
+}
+
+h2{
+    font-size: 1.5rem;
+}
+ 
+h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+} 
+
+.weather{
+    background-color: #AAD4EA;
+    color: #032D4E;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: Hind Siliguri, Helvetica, sans-serif;
+}
+
+hr {
+    display: block;
+    width: 50%;
+    border-top: 1px solid #4F4044;
+}
+
+footer {
+    display: block;
+    background-color: #172623;
+    color: #9BC1BC;
+}
+.contact{
+    background-color: #9BC1BC;
+    color: #172623;
+}
+
+footer p{
+    padding: 1rem;
+    align-content: center;
+    margin: 0;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
