@@ -1,48 +1,35 @@
-@media screen and (max-width: 640px) {
-
 body{
     font-family: 'Roboto', sans-serif;
     display:grid;
-    max-width: 640px;
     min-width: 400px;
     margin: 0 auto;
-    padding: 1rem;
     font-size: 1.25rem;  
     text-align: center;
 }
 
-header {
+header { 
     display: grid;
-    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     background-color: #ceb5a7;
-    border: 1px solid #bbb;
 }
 
 img{
     display: flex;
-    margin: 10px;
+    margin: 20px;
     max-width: 125px;
-    padding: 10px 5px 10px 5px;
     justify-self: center;
 }
 
 h1{
     display: flex;
-    font-size: 50px;
-    justify-content: left;
-    align-items: center;
-    padding: 00;
-    margin: auto 1em;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0px;
 }
 
-div{
-    display: flex;
-    justify-self: center;
-}
-
-nav{
+nav{ 
     margin: 0 auto;
     width: 100%;
 }
@@ -50,7 +37,7 @@ nav{
 /* small view navigation */
  #menu {
 	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
+	border: 0px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
 	background-color: #ceb5a7;
 	color: black;
@@ -77,14 +64,6 @@ nav{
     color: black;
 }
 
-/* ul{
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    padding: 1em;
-    margin: 0;
-}  */
-
 .navigation li {
 	display: none;
 }
@@ -102,31 +81,6 @@ nav{
 	color: white;
 }
 
-
-/* nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} */
-
-/* .navigation li {
-	display: none;
-}
-*/
-
-/* nav a{
-    /* display: block; */
-    /* text-decoration: none; */
-    /* color: black; */
-    /* padding: 1rem; */
-    /* text-align: center; 
-} */
-/*
-nav a:hover {
-    background-color: #a17c6b;
-    color: white;
-} */
-
 .open li {
 	display: block;
 	width: 100%;
@@ -140,27 +94,16 @@ nav a:hover {
     content: '►';
 }
 
-/* .stuff {
-	margin: .5m;
-	border: 1px solid rgba(0,0,0,.1);
-	background-color: #bed;
-	max-width: 580px;
-	height: 100vh;
-	
-}  */
+h2{
+    padding: 1rem;
+}
 
 hr {
     display: block;
     height: 1px;
-    border: 0;
     border-top: 1px solid black;
     margin: -30px 1em;
     padding: 0;
-}
-
-h2{
-    border: black;
-    padding: 1rem;
 }
 
 main {
@@ -179,19 +122,10 @@ main {
 h3{
     font-size: 30px;
     background-color: #5b7b7a;
-    border: 1px solid #bbb;
     color: white;
     padding: .5rem;
     margin: 0px;
 }
-
-/* ul{
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    padding: 1em;
-    margin: 0;
-}  */
 
 .left{
     display: block;
@@ -204,7 +138,6 @@ h3{
 footer {
     display: block;
     overflow: hidden;
-    border: 1px solid #bbb;
     background-color: #ceb5a7;
 }
 
@@ -216,16 +149,10 @@ footer p{
     padding:.5em;
 }
 
-.foot{
-    color: white;
-}
-
 #mode {
     position: absolute;
     top: 1rem;
     left: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
-}
-
 }
