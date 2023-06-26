@@ -112,11 +112,11 @@ nav{
 /* small main */
 main {
     display:block;
-    /* color: #4F4044 */
 }
 
 h2{
     font-size: 1.5rem;
+    text-align: center;
 }
  
 h3{
@@ -144,9 +144,10 @@ hr {
 }
 
 .sidebar{
+    /* display: sticky; */
     margin: 20px;
     /* padding: 15px; */
-    top: 0;
+    /* top: 0; */
 }
 
 .shadow img{
@@ -179,3 +180,14 @@ footer p{
     cursor: pointer;
 }
 
+li{
+    padding: 10px;
+}
+
+.noBullets{
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: left;
+}

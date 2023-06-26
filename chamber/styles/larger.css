@@ -42,8 +42,9 @@
     }
 
     main {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
+
     }
 
     .hero{
@@ -71,7 +72,8 @@
         padding: 1rem;
     }
 /*  
-    .spotlight img{
+    .span{
+        flex-direction: flex;
         grid-column: 1/2;
         text-align: right;
         padding: 1rem;
@@ -86,12 +88,15 @@
     }
 
     .discover{
-        grid-template-columns: auto auto;
+        display: flex;
+        justify-content: space-between;
+        /* grid-template-columns: auto auto; */
     }
 
     .sidebar{
-        /* position: static; */
-        width: 250px;
+        position: static;
+        width: 30%;
+        top: 0;
     }
 
     .shadow :hover {
