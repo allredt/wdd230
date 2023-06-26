@@ -32,8 +32,9 @@ header {
     background-color: #9BC1BC;
 }
 
-img{
-    max-width: 100%;
+.hero img{
+    width: 100%;
+    height: auto;
 }
 
 h1{
