@@ -10,13 +10,11 @@ let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
 if (numVisits == 0) {
 	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
-}if (elapsed <= 86400) {
+} if (elapsed <= 86400) {
 	visitsDisplay.textContent = `Back so soon! Awesome!`;
-}
-if (elapsed >= 86400 && elapsed <= 172800) {
+} if (elapsed >= 86400 && elapsed <= 172800) {
 	visitsDisplay.textContent = `You last visited ${numVisits()} day ago.`;
-}
- else {
+} else {
 	visitsDisplay.textContent = `You last visited ${numVisits()} days ago.`;
 }
 
