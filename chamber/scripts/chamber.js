@@ -14,7 +14,7 @@ if (numVisits == 0) {
 	visitsDisplay.textContent = `Back so soon! Awesome!`;
 }
  else {
-	visitsDisplay.textContent = `Visits: ${numVisits()}`;
+	visitsDisplay.textContent = `You last visited ${numVisits()} days ago.`;
 }
 
 numVisits++;
