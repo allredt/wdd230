@@ -8,7 +8,7 @@ const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
-if (numVisits == null) {
+if (numVisits == null || numVisits == 0) {
 	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
 } if (elapsed <= 86400) {
 	visitsDisplay.textContent = `Back so soon! Awesome!`;
