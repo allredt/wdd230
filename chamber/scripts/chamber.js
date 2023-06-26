@@ -13,6 +13,9 @@ if (numVisits == 0) {
 }if (elapsed <= 86400) {
 	visitsDisplay.textContent = `Back so soon! Awesome!`;
 }
+if (elapsed >= 86400 && elapsed <= 172800) {
+	visitsDisplay.textContent = `You last visited ${numVisits()} day ago.`;
+}
  else {
 	visitsDisplay.textContent = `You last visited ${numVisits()} days ago.`;
 }
