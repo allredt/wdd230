@@ -90,11 +90,10 @@
     .discover{
         display: flex;
         justify-content: space-between;
-        /* grid-template-columns: auto auto; */
     }
 
     .sidebar{
-        position: static;
+        position: sticky;
         width: 30%;
         top: 0;
     }
