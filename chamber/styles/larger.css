@@ -25,6 +25,7 @@
 
     h2{
         font-size: 2rem;
+        grid-column: 1/3;
     }
 
     #menu {
@@ -39,6 +40,7 @@
         display: block;
         flex: 1 1 100%;
     }
+
     main {
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -68,7 +70,13 @@
         text-align: right;
         padding: 1rem;
     }
- 
+/*  
+    .spotlight img{
+        grid-column: 1/2;
+        text-align: right;
+        padding: 1rem;
+    } */
+
     hr {
         grid-column: 1/3; 
     }
@@ -86,7 +94,7 @@
         width: 250px;
     }
 
-    .pictures :hover {
+    .shadow :hover {
         box-shadow: 0 0 20px #333;
     }
 
