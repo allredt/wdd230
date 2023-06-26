@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Chamber of Commerce</title>
+    <meta name="author" content="Trudy Allred">
+    <meta name="description" content="The Aurora Chamber of Commerce navigates business members to accessible networking, advocacy, and influence in the Aurora Colorado area.">
+    <meta property="og:title" content="Aurora Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/Image/heroImages/Quincy-Web.jpg">
+    <meta property="og:url" content="https://allredt.github.io/wdd230/chamber">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <h1>Aurora Chamber of Commerce</h1>
+
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="https://allredt.github.io/wdd230/chamber/index.html">Home</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/" class="active">Discover</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/">Directory</a></li>
+            <li><a href="https://allredt.github.io/wdd230/chamber/">Join</a></li>
+        </ul>   
+    </nav>
+    <main class="discover">
+        <section class="sidebar">
+            <p>Visits: <span class="visits"></span></p>
+            <h3>Demographics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quas sed ab delectus ad, magni eveniet repudiandae.</p>
+            <h3>Events</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam ducimus, quisquam alias eaque in quis minima nemo veritatis tenetur!</p>
+            <h3>Attractions</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facilis iste ullam doloremque corrupti fugit, nulla adipisci commodi odio culpa veniam ab.</p>
+        </section>
+        <div class="pictures">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/shopping_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/shopping_med.webp">
+                <img src="images/shopping_large.webp" alt="Shopping" loading="lazy" width="1500" height="750">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/farmersmarket_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/farmersmarket_med.webp">
+                <img src="images/farmersmarket_large.webp" alt="Farmers Market" loading="lazy" width="1500" height="750">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/dining_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/dining_med.webp">
+                <img src="images/dining_large.webp" alt="Dinning" loading="lazy" width="1500" height="750">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/dog_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/dog_med.webp">
+                <img src="images/dog_large.webp" alt="Dog Running" loading="lazy" width="1500" height="750">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/park_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/park_med.webp">
+                <img src="images/park_large.webp" alt="Park in autumn" loading="lazy" width="1500" height="750">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hiking_small.webp">
+                <source media="(max-width: 1000px)" srcset="images/dining_med.webp">
+                <img src="images/hiking_large.webp" alt="Hiking at lake" loading="lazy" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p class="contact">Contact Us <br>
+                303-555-5555 <br>
+                Fax: 303-555-5551</p>
+            </div>
+        <div class="details">
+            <p id="year"></p>
+            <p>Trudy Allred</p>
+            <p>WDD-230</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

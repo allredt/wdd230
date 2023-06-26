@@ -76,6 +76,19 @@
         display:grid;
     }
 
+    .discover{
+        grid-template-columns: auto auto;
+    }
+
+    .sidebar{
+        /* position: static; */
+        width: 250px;
+    }
+
+    .pictures :hover {
+        box-shadow: 0 0 10px #333;
+    }
+
     footer p{
         display: inline-flex;
     }
