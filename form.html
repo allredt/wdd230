@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trudy Allred - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Trudy Allred">
+    <meta name="description" content="WDD 230 - Web Frontend Development Trudy Allred course assignment portal">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development Course Assignment Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_1881137/Image/heroImages/Quincy-Web.jpg">
+    <meta property="og:url" content="https://allredt.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img class ="head" src="images/trudyallred.webp" alt="profile image">
+        <h1>Trudy Allred</h1>
+        <div id="mode">
+            ☑️
+        </div>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Navigation Menu"></button>
+        <ul class="navigation">
+            <li><a href="https://allredt.github.io/wdd230">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="https://allredt.github.io/wdd230/form.html" class="active">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Please Rate this Site</h2>
+        <hr>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top">Username* <input type="text" name="uname" required></label>
+                <label class="top">Password* <input type="text" name="pwd" id="keyphrase" required pattern="[A-Za-z0-9]{8,}" title="Must be at least eight (8) characters long and can only be alpha-numeric"></label>
+                <label class="top">Confirm Password* <input type="text" name="pwd2" id="keyphrase2" required title="Must match password field."></label>
+                <div id="errormessage"></div>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Site Rating</legend>
+                <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+            </fieldset>
+            <input type="submit" value="Rate this Site" class="submitButton">
+        </form>
+    </main>
+    <footer>
+        <p id="year"></p>
+        <p>Trudy Allred</p>
+        <p>Colorado</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
