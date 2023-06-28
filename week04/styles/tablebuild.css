@@ -1,0 +1,51 @@
+:root{
+    --back: black;
+    --back2: gray;
+    --textdark: black;
+    --textlight: white;
+    --border: black;
+    --borderlighter: gray;
+    --zebra: silver; 
+}
+
+table{
+    margin: 20px auto;
+    border: thin solid var(--borderlighter);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+}
+
+tr:first-child th, .highlight{
+    background-color: var(--back);
+    color: var(--textlight);
+    border: var(--border);
+}
+
+th, td{
+    padding: 10px 15px;
+    border: 1px solid var(--borderlighter);
+}
+
+th{
+    background-color: var(--back2);
+    color: var(--textlight);
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+.blank{
+    background-color: var(--back);
+    border: var(--border);
+}
