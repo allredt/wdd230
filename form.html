@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/form.css">
 </head>
-
 <body>
-
     <header>
         <img class ="head" src="images/trudyallred.webp" alt="profile image">
         <h1>Trudy Allred</h1>
@@ -31,38 +29,53 @@
     </header>
 
     <nav>
-        <button id="menu" aria-label="Navigation Menu"></button>
-        <ul class="navigation">
-            <li><a href="https://allredt.github.io/wdd230">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="https://allredt.github.io/wdd230/form.html" class="active">Form</a></li>
-        </ul>
+    <button id="menu" aria-label="Navigation Menu"></button>
+    <ul class="navigation">
+        <li><a href="https://allredt.github.io/wdd230">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="https://allredt.github.io/wdd230/form.html" class="active">Form</a></li>
+    </ul>
     </nav>
-
     <main>
 
-        <h2>Please Rate this Site</h2>
+        <h2>Please rate this site</h2>
         <hr>
-
         <form method="get" action="record.html">
             <fieldset>
                 <legend>User Information</legend>
-                <label for="username" class="top">Username* <input type="text" name="uname" required placeholder="Please enter your username"></label>
-                <label for="pswd" class="top">Password* <input type="text" name="pwd" id="keyphrase" required pattern="[A-Za-z0-9]{8,}" title="Must be at least eight (8) characters long and can only be alpha-numeric"></label>
-                <label for="pswd2" class="top">Confirm Password* <input type="text" name="pwd2" id="keyphrase2" required title="Must match password field."></label>
-                <!-- <div id="errormessage"></div> -->
-                <label for="email" class="top">Email* <input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-            </fieldset>
-            <fieldset>
-                <legend>Site Rating</legend>
-                <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-            </fieldset>
-            <input type="submit" value="Rate this Site" class="submitButton">
-        </form>
+                <!-- error message -->
+                <div id="errormmessage"></div>
 
+                <label class="top">Username* <input type="text" name="uname" required placeholder="Please enter your username"></label>
+
+                <label class="top">Password* <input type="text" id="pswd" name="pswd" required pattern="[A-Za-z0-9]{8,}" placeholder="Atleast eight characters long, only alpha-numeric" title="At least eight characters long, only alpha-numeric"></label>
+
+                <label class="top">Confirm Password* <input type="text" id="pswd2" name="pswd2" required title="Must match password field."></label>
+
+                <label class="top">Email Address* <input type="email" name="email" required placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email byui email address"></label>
+
+                <!-- <button id="btnSubmit" type="submit">Rate this Site</button> -->
+                <div></div>
+                <label class="rating">Rating* <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues" required >
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                    <div id="rangevalue">0</div>
+                </label>
+                <input type="submit" value="Rate this Site" class="submitButton">
+            </fieldset>
+        </form>
     </main>
 
     <footer>
@@ -72,9 +85,7 @@
         <p id="lastModified"></p>
     </footer>
 
-    <script src="scripts/getDates.js"></script>
     <script src="scripts/index.js"></script>
-
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
-
-</html>

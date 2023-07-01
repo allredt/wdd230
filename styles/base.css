@@ -204,18 +204,6 @@ textarea:focus {
 	animation: shaketext 500ms;
 }
 
-@keyframes shaketext {
-	25% {
-		transform: translateX(3px);
-	}
-	50% {
-		transform: translateX(-3px);
-	}
-	75% {
-		transform: translateX(3px);
-	}
-}
-
 
 /* ----------Footer---------- */
 footer {

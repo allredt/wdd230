@@ -29,11 +29,11 @@ form legend{
     padding: 0 .5rem;
 }
 
-form label.top, form div{
+form label.top, form div, form label.rating{
     display: block;
     padding-top: 1rem;
     color: var(--required);
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 form label.top input, form label.top select{
@@ -60,27 +60,72 @@ form input.submitButton{
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 2rem 0;
     width: 96%;
     max-width: 20rem;
 }
 
-/* form label.top input:required{
+form label.top input:required{
     border-left: var(--required) solid 6px;
-} */
+}
 
 form label.top input:required:valid{
     border-left: #006A4E solid 6px;
 }
 
-#formmessage {
+#errormmessage {
+	visibility: none;
+	/* margin: 10px;
+	padding: 0.5rem; */
+	color: var(--required);
+    font-size: 1.25rem;
+}
+
+/* #formmessage {
 	visibility: none;
 	margin: 10px;
 	padding: 0.5rem;
-	color: red;
-}
+	color: var(--required);
+} */
 
 #keyphrase2:invalid {
 	background-color: #fff0f3;
 	animation: shaketext 500ms;
 }
+
+@keyframes shaketext {
+	25% {
+		transform: translateX(3px);
+	}
+	50% {
+		transform: translateX(-3px);
+	}
+	75% {
+		transform: translateX(3px);
+	}
+}
+
+/* ----------rating---------- */
+/* form label.rating, form div{
+    display: block;
+    padding-top: 1rem;
+    color: var(--required);
+    font-size: 1rem;
+} */
+
+form label.rating input, form label.rating select{
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+/* form label.rating input:required{
+    border-left: var(--required) solid 6px;
+} */
+
+/* form label.rating input:required:valid{
+    border-left: #006A4E solid 6px;
+} */
