@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 </head>
+
 <body>
+
     <header>
         <img class ="head" src="images/trudyallred.webp" alt="profile image">
         <h1>Trudy Allred</h1>
@@ -26,6 +28,7 @@
             ☑️
         </div>
     </header>
+
     <nav>
         <button id="menu" aria-label="Navigation Menu"></button>
         <ul class="navigation">
@@ -35,19 +38,26 @@
             <li><a href="http://Form">Form</a></li>
         </ul>
     </nav>
+
     <main>
+
         <div class="hero">
             <picture>
                 <source media="(max-width:640px)" srcset="images/laie_hawaii_temple_lds_small.webp">
                 <source media="(max-width:1000px)" srcset="images/laie_hawaii_temple_lds_med.webp">
                 <img src="images/laie_hawaii_temple_lds_large.webp" alt="Laie Hawaii LDS Temple" width="1500" height="750">
             </picture>
+
             <div class="herolabel">
                 <p>Laie Hawaii Temple</p>
             </div>
+
         </div>
+
         <h2>WDD 230: Web Frontend Development</h2>
+
         <hr>
+        
         <section class="card"> 
             <h3>Learning Activities</h3>
             <ul>
@@ -59,21 +69,26 @@
                 <li class="left">Week 06: <a href=""></a></li>
             </ul>
         </section>
+
         <section class="card">
             <h3>Information</h3>
             <p>Location</p>
             <p>Weather</p>
             <p>Page Visits: <span class="visits"></span></p>  
         </section>
+
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116830.64617169107!2d-104.79115945581377!3d39.692967342271196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c588622ba2b9b%3A0x8441e0688ba2e678!2sAurora%2C%20CO!5e0!3m2!1sen!2sus!4v1687463659752!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
+   
     </main>
+
     <footer>
         <p id="year"></p>
         <p>Trudy Allred</p>
         <p>Colorado</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+
     <script src="scripts/index.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 @media screen and (min-width: 640px) {
 
+    /* ----------Header---------- */
     .head{
         justify-self: right;
         box-shadow: 5px 5px 10px black;
@@ -14,10 +15,17 @@
 		display: none; /* hide hamburger button */
 	}
 
+    /* ----------Navigation---------- */
     .navigation{
         flex-direction: row;
     }
 
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /* ----------Body---------- */
     .hero{
         margin: 0;
         position: relative;
@@ -35,11 +43,6 @@
         padding: 1.5rem;
         font-weight: 700;
         font-size: 1.5rem; 
-    }
-
-    .navigation li{
-        display: block;
-        flex: 1 1 100%;
     }
 
     h2{
@@ -65,6 +68,7 @@
         margin: auto;
     }
 
+    /* ----------Footer---------- */
     footer {
         padding: 1rem;
     }
