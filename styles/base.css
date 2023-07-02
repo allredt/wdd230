@@ -185,25 +185,6 @@ h3{
     padding: 10px 0;
 }
 
-/* ----------Form---------- */
-
-input:focus,
-textarea:focus {
-	outline: none;
-}
-
-#formmessage {
-	visibility: none;
-	margin: 10px;
-	padding: 0.5rem;
-	color: red;
-}
-
-#keyphrase:invalid {
-	background-color: #fff0f3;
-	animation: shaketext 500ms;
-}
-
 
 /* ----------Footer---------- */
 footer {
