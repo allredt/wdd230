@@ -97,13 +97,13 @@
     }
 
     .discover{
-        display: flex;
+        display: grid;
+        grid-template-columns: .5fr 1fr;
         justify-content: space-between;
     }
 
     .sidebar{
         position: sticky;
-        width: 30%;
         top: 0;
     }
 
