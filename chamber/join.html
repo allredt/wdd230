@@ -42,33 +42,27 @@
                 <!-- error message -->
                 <div id="errormmessage"></div>
 
-                <label class="top">First Name* <input type="text" name="fname" id="fname" placeholder="Please enter your first name"></label>
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required placeholder="Please enter your first name"></label>
 
-                <label class="top">Username* <input type="text" name="uname" required placeholder="Please enter your username"></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required placeholder="Please enter your last name"></label>
 
-                <label class="top">Password* <input type="text" id="pswd" name="pswd" required pattern="[A-Za-z0-9]{8,}" placeholder="Atleast eight characters long, only alpha-numeric" title="At least eight characters long, only alpha-numeric"></label>
+                <label class="top">Title or Position <input type="text" id="title" name="title" pattern="[A-Za-z]{7,}" placeholder="Title or Position"></label>
 
-                <label class="top">Confirm Password* <input type="text" id="pswd2" name="pswd2" required title="Must match password field."></label>
+                <label class="top">Email Address* <input type="email" id="email" name="email" required placeholder="someone@byui.email.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email byui email address"></label>
 
-                <label class="top">Email Address* <input type="email" name="email" required placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email byui email address"></label>
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" required placeholder="123456789"></label>
+                
+                <label class="top">Business/Organization Name* <input type="text" id="bname" name="bname" required></label>
+
+                <label class="top">Description <input type="text" id="description" name="description"></label>
+
+                <input type="hidden" id="tstamp" name="tstamp">
+                
+                <!-- <label class="top">Password* <input type="text" id="pswd" name="pswd" required pattern="[A-Za-z0-9]{8,}" placeholder="Atleast eight characters long, only alpha-numeric" title="At least eight characters long, only alpha-numeric"></label>
+
+                <label class="top">Confirm Password* <input type="text" id="pswd2" name="pswd2" required title="Must match password field."></label> -->
 
                 <!-- <button id="btnSubmit" type="submit">Rate this Site</button> -->
-                <div></div>
-                <label class="rating">Rating*:  <span id="rangevalue">0</span><input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-                    <datalist id="rangevalues">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </datalist>
-                </label>
                 <input type="submit" value="Join Now" class="submitButton">
             </fieldset>
         </form>
