@@ -39,5 +39,5 @@ btnSubmit.addEventListener('click', () => {
 let logForm = document.getElementById("#btnSubmit");
 
 logForm.addEventListener("submit", () => {
-	e.preventDefault();
+	null
   });
