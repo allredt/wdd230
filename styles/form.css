@@ -58,11 +58,11 @@ form input.submitButton{
     border: none;
     background-color: var(--required);
     color: white;
-    /* border-radius: 1rem; */
-    /* padding: .75rem 1.5rem;
-    margin: 2rem 0; */
-    /* width: 96%;
-    max-width: 20rem; */
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0;
+    width: 96%;
+    max-width: 20rem;
 }
 
 form label.top input:required{
@@ -122,16 +122,16 @@ form label.rating input, form label.rating select{
     max-width: 20rem;
 }
 
-button{
+/* button{
     border: none;
     background-color: var(--required);
-    /* color: white; */
+    color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 2rem 0;
     width: 96%;
     max-width: 20rem;
-}
+} */
 
 /* form label.rating input:required{
     border-left: var(--required) solid 6px;
