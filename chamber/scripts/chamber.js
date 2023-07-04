@@ -35,3 +35,9 @@ btnSubmit.addEventListener('click', () => {
 	document.getElementById("tstamp").innerHTML = `${timestamp()}`;
 
 });
+
+let logForm = document.getElementById("#btnSubmit");
+
+logForm.addEventListener("submit", () => {
+	e.preventDefault();
+  });
