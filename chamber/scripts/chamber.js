@@ -27,3 +27,11 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "☑️";
 	}
 });
+
+let btnSubmit = document.querySelector("#btnSubmit");
+
+btnSubmit.addEventListener('click', () => {
+	let timestamp = new Date.now()
+	document.getElementById("tstamp").innerHTML = `${timestamp()}`;
+
+});

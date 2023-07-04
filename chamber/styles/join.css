@@ -1,0 +1,81 @@
+/* ---------- FORM -------------- */
+
+/* form{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    min-width: 350px;
+} */
+
+/* form legend{
+    color:var(--heading);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div, form label.rating{
+    display: block;
+    padding-top: 1rem;
+    color: var(--required);
+    font-size: 1rem;
+} */
+
+/* form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+button{
+    border: none;
+    background-color: var(--required);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0;
+    width: 96%;
+    max-width: 20rem;
+} */
+
+/* form label.top input:required{
+    border-left: var(--required) solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: #006A4E solid 6px;
+} */
+
+/* #errormmessage {
+	visibility: hidden;
+	color: var(--required);
+    font-size: 1.25rem;
+} */
+
+/* @keyframes shaketext {
+	25% {
+		transform: translateX(3px);
+	}
+	50% {
+		transform: translateX(-3px);
+	}
+	75% {
+		transform: translateX(3px);
+	}
+} */
