@@ -54,7 +54,7 @@ form label.sbs{
     color: #555;
 }
 
-/* form input.submitButton{
+form input.submitButton{
     border: none;
     background-color: var(--required);
     color: white;
@@ -63,7 +63,7 @@ form label.sbs{
     margin: 2rem 0;
     width: 96%;
     max-width: 20rem;
-} */
+}
 
 form label.top input:required{
     border-left: var(--required) solid 6px;
@@ -122,7 +122,7 @@ form label.rating input, form label.rating select{
     max-width: 20rem;
 }
 
-button{
+/* button{
     border: none;
     background-color: var(--required);
     color: white;
@@ -131,7 +131,7 @@ button{
     margin: 2rem 0;
     width: 96%;
     max-width: 20rem;
-}
+} */
 
 /* form label.rating input:required{
     border-left: var(--required) solid 6px;

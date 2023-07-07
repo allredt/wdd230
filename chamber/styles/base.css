@@ -262,7 +262,7 @@ form label.sbs{
     color: #555;
 }
 
-button{
+form input.submitButton{
     border: none;
     background-color: var(--required);
     color: var(--heading);
