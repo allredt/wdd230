@@ -1,0 +1,56 @@
+{
+    "Members" : [
+    {
+        "name" : "Sam's No.3",
+        "address" : "2580 S Havana st, Aurora, CO 80014",
+        "phone" : "303-751-0347",
+        "website" : "https://samsno3.com/",
+        "membershipLevel": "Bronze",
+        "image": "https://allredt.github.io/wdd230/chamber/images/samsNo31.webp"
+    },
+
+    {
+        "name" : "",
+        "address" : "",
+        "phone" : "",
+        "website" : "",
+        "membershipLevel": "",
+        "image": ""
+    },
+
+    {
+        "name" : "",
+        "address" : "",
+        "phone" : "",
+        "website" : "",
+        "membershipLevel": "",
+        "image": ""
+    },
+
+    {
+        "name" : "",
+        "address" : "",
+        "phone" : "",
+        "website" : "",
+        "membershipLevel": "",
+        "image": ""
+    },
+
+    {
+        "name" : "",
+        "address" : "",
+        "phone" : "",
+        "website" : "",
+        "membershipLevel": "",
+        "image": ""
+    },
+
+    {
+        "name" : "",
+        "address" : "",
+        "phone" : "",
+        "website" : "",
+        "membershipLevel": "",
+        "image": ""
+    }]
+}
