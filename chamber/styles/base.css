@@ -210,6 +210,11 @@ button{
     max-width: 20rem;
 }
 
+/* ----------directory---------- */
+.directory{
+    grid-template-columns: 1fr;
+}
+
 /* ----------Form---------- */
 form{
     grid-column: 2/3;
