@@ -1,5 +1,5 @@
 {
-    "Members" : [
+    "members" : [
     {
         "name" : "Sam's No.3",
         "address" : "2580 S Havana st, Aurora, CO 80014",
@@ -10,47 +10,47 @@
     },
 
     {
-        "name" : "",
-        "address" : "",
-        "phone" : "",
-        "website" : "",
-        "membershipLevel": "",
-        "image": ""
+        "name" : "The Salvation Army",
+        "address" : "802 Quari Ct, Aurora, CO 80011",
+        "phone" : "303-364-1965",
+        "website" : "https://aurora.salvationarmy.org/aurora_corps/",
+        "membershipLevel": "Non-Profit",
+        "image": "https://allredt.github.io/wdd230/chamber/images/salvation_army.webp"
     },
 
     {
-        "name" : "",
-        "address" : "",
-        "phone" : "",
-        "website" : "",
-        "membershipLevel": "",
-        "image": ""
+        "name" : "Nicks Garden Center & Farm Market",
+        "address" : "2001 S Chambers Rd, Aurora, CO 80014",
+        "phone" : "303-696-6657",
+        "website" : "https://nicksgardencenter.com/",
+        "membershipLevel": "Silver",
+        "image": "https://allredt.github.io/wdd230/chamber/images/nicks.webp"
     },
 
     {
-        "name" : "",
-        "address" : "",
-        "phone" : "",
-        "website" : "",
-        "membershipLevel": "",
-        "image": ""
+        "name" : "Wings over the Rockies Air & Space Museum",
+        "address" : "7711 E Academy Blvd, Aurora, CO 80230",
+        "phone" : "303-360-5360",
+        "website" : "https://wingsmuseum.org/",
+        "membershipLevel": "Silver",
+        "image": "https://allredt.github.io/wdd230/chamber/images/wings.webp"
     },
 
     {
-        "name" : "",
-        "address" : "",
-        "phone" : "",
-        "website" : "",
-        "membershipLevel": "",
-        "image": ""
+        "name" : "Altos Vetrinary Clinic",
+        "address" : "176 S Potomac St, Aurora, CO 80012",
+        "phone" : "303-343-8796",
+        "website" : "https://www.altosveterinaryclinic.com/",
+        "membershipLevel": "Bronze",
+        "image": "https://allredt.github.io/wdd230/chamber/images/altos.webp"
     },
 
     {
-        "name" : "",
-        "address" : "",
-        "phone" : "",
-        "website" : "",
-        "membershipLevel": "",
-        "image": ""
+        "name" : "Southlands",
+        "address" : "6155 S Main St, Aurora, CO 80016",
+        "phone" : "303-637-5000",
+        "website" : "https://www.shopsouthlands.com/",
+        "membershipLevel": "Gold",
+        "image": "https://allredt.github.io/wdd230/chamber/images/southlands.webp"
     }]
 }
