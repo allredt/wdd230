@@ -357,8 +357,8 @@ form label.top input:required:valid{
 }
 
 .list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	display: block;
+	/* grid-template-columns: 2fr 1fr 1fr; */
 	margin: 0;
 	padding: 0.25rem;
 }
