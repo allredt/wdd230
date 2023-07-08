@@ -1,4 +1,4 @@
-const url = 'https://allredt.github.io/wdd230/chamber/data/members.json';
+const murl = 'https://allredt.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 
 const gridbutton = document.querySelector("#grid");
@@ -18,7 +18,7 @@ function showList() {
 }
 
 async function getMemberData () {
-    const response = await fetch(url);
+    const response = await fetch(murl);
     const data = await response.json();
     console.log(data.members);
     displayMembers(data.members);
