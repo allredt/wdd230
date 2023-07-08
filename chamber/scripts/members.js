@@ -22,10 +22,10 @@ const displayMembers = (members) => {
         fullName.textContent = `${member.name}`;
         console.log(fullName)
 
-        address.textContent = `${member.address}`;
+        address.textContent = `Address: ${member.address}`;
         console.log(website);
 
-        membership.textContent = `${member.membershipLevel}`
+        membership.textContent = `${member.membershipLevel} Member`
 
 
         portrait.setAttribute('src', member.image);

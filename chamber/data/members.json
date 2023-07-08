@@ -46,6 +46,15 @@
     },
 
     {
+        "name": "Soccer City",
+        "address": "15960 E Colfax Ave, Aurora, CO 80011",
+        "phone": "720--388-7200",
+        "website": "https://coloradosoccerfoundation.org/soccercity/",
+        "membershipLevel": "Non-Profit",
+        "image": "https://allredt.github.io/wdd230/chamber/images/soccer.webp"
+    },
+
+    {
         "name": "Southlands",
         "address": "6155 S Main St, Aurora, CO 80016",
         "phone": "303-637-5000",
