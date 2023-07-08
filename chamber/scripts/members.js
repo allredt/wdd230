@@ -1,4 +1,3 @@
-// const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 const url = 'https://allredt.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 
@@ -7,12 +6,11 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList);
 
 function showList() {
 	display.classList.add("list");
@@ -66,18 +64,3 @@ const displayMembers = (members) => {
 }
 
 getMemberData();
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-// gridbutton.addEventListener("click", () => {
-// 	// example using arrow function
-// 	display.classList.add("grid");
-// 	display.classList.remove("list");
-// });
-
-// listbutton.addEventListener("click", showList); // example using defined function
-
-// function showList() {
-// 	display.classList.add("list");
-// 	display.classList.remove("grid");
-// }
