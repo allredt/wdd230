@@ -54,18 +54,19 @@
             <h2>Call to Action</h2>
             <section class="action"> 
                 <picture class="span">
-                    <source media="(max-width:640px)" srcset="//via.placeholder.com/500x250/">
-                    <source media="(max-width:1000px)" srcset="//via.placeholder.com/500x250/">
+                    <source media="(max-width:640px)" srcset="images/join_small.webp">
+                    <source media="(max-width:1000px)" srcset="images/join_small.webp">
                     <img src="images/join_small.webp" alt="Placeholder" loading="lazy" width="500" height="250">
                 </picture>
                 <p>Through The Chamber members can gain access to key business, political, and community leaders. The Chamber is an advocate for its members, both through its government connections and throughout the community. A primary objective of The Chamber is to influence a positive business environment and encourage growth and long-term economic vitality. We invite you to join us!</p>
             </section>
-            <button onclick="window.location.href='join.html';">Join Us!</button>
+            <button class="joinBtn" onclick="window.location.href='join.html';">Join Us!</button>
             <hr>
             <h2>Spotlight</h2>
-            <h3>Sam's No. 3</h3>
+            <!-- <h3>Sam's No. 3</h3> -->
             <section class="spotlight"> 
-                <p>Locally owned and operated circa-1927 kitschy diner dishing up big helpings of comfort food from breakfast through dinner. Better get there early, they close at 2pm! <br> 
+                <article id="cards" class="grid"></article>
+                <!-- <p>Locally owned and operated circa-1927 kitschy diner dishing up big helpings of comfort food from breakfast through dinner. Better get there early, they close at 2pm! <br> 
                 <br>
                 Address: 2580 S Havana st, Aurora, CO 80014
                 <br>
@@ -94,7 +95,7 @@
                 <br>
                 <br>
                 Bronze Member
-                </p>
+                </p> -->
             </section>
         </div>
     </main>
@@ -112,5 +113,6 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <!-- <script src="scripts/spotlight.js"></script> -->
 </body>
 </html>
