@@ -2,6 +2,23 @@
 const url = 'https://allredt.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
 async function getMemberData () {
     const response = await fetch(url);
     const data = await response.json();
@@ -37,6 +54,8 @@ const displayMembers = (members) => {
         website.setAttribute('href', member.website);
         website.textContent = `${member.website}`;
 
+        console.log(member)
+
         card.appendChild(fullName);
         card.appendChild(portrait);
         card.appendChild(address);
@@ -47,3 +66,18 @@ const displayMembers = (members) => {
 }
 
 getMemberData();
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+// gridbutton.addEventListener("click", () => {
+// 	// example using arrow function
+// 	display.classList.add("grid");
+// 	display.classList.remove("list");
+// });
+
+// listbutton.addEventListener("click", showList); // example using defined function
+
+// function showList() {
+// 	display.classList.add("list");
+// 	display.classList.remove("grid");
+// }
