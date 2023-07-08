@@ -1,0 +1,112 @@
+{
+    "weeks":[
+        {
+        "week": "week 1",
+            "links": [
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holy Grail Layout"
+                },
+
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Site Plan"
+                }]
+        },
+
+        {
+            "week": "week 2",
+                "links": [
+                    {
+                        "url": "https://allredt.github.io/wdd230/week02/design.html",
+                        "title": "Design"
+                    },
+    
+                    {
+                        "url": "https://codepen.io/Trudy-Allred/pen/eYQpyWx",
+                        "title": "CodePen"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week02/bom.html",
+                        "title": "BOM"
+                    }]
+        },
+
+        {
+            "week": "week 3",
+                "links": [
+                    {
+                        "url": "https://allredt.github.io/wdd230/week03/images/landscape.webp",
+                        "title": "Webp"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week03/lazyload.html",
+                        "title": "Lazyload"
+                    },
+
+                    {
+                        "url": "https://allredt.github.io/wdd230/week03/responsive-images.html",
+                        "title": "Responsive Images"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week03/bom.html",
+                        "title": "API Local Storage"
+                    }]
+        },
+
+        {
+            "week": "week 4",
+                "links": [
+                    {
+                        "url": "https://codepen.io/Trudy-Allred/pen/gOQmGWJ?editors=1100",
+                        "title": "Pseudo Classes"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week04/images/combinators.webp",
+                        "title": "Combinators"
+                    },
+
+                    {
+                        "url": "https://allredt.github.io/wdd230/week04/tablebuild.html",
+                        "title": "Table Build"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week04/index.html",
+                        "title": "Form Creation"
+                    }]
+        },
+
+        {
+        "week": "week 5",
+                "links": [
+                    {
+                        "url": "https://codepen.io/Trudy-Allred/pen/XWyeVJZ",
+                        "title": "Pseudo Elements"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week05/new-ward-members.json",
+                        "title": "New ward members JSON"
+                    },
+
+                    {
+                        "url": "https://allredt.github.io/wdd230/week05/prophets.html",
+                        "title": "Prophets"
+                    },
+    
+                    {
+                        "url": "https://allredt.github.io/wdd230/week05/weather.html",
+                        "title": "Weather API"
+                    }]
+}]
+}
