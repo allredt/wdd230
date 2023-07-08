@@ -211,7 +211,7 @@ li{
 } */
 
 /* ----------directory---------- */
-.directory{
+#directory{
     grid-template-columns: 1fr;
 }
 
