@@ -5,18 +5,6 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-gridbutton.addEventListener("click", () => {
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList);
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
 async function getMemberData () {
     const response = await fetch(murl);
     const data = await response.json();
@@ -52,7 +40,8 @@ const displayMembers = (members) => {
         website.setAttribute('href', member.website);
         website.textContent = `${member.website}`;
 
-        console.log(member)
+        if (member.membershipLevel == "Silver" || member.membershipLevel == "Gold") {
+            console.log(member.membershipLevel);
 
         card.appendChild(fullName);
         card.appendChild(portrait);
@@ -60,6 +49,7 @@ const displayMembers = (members) => {
         card.appendChild(website);
         card.appendChild(membership);
         cards.appendChild(card);
+        } else{};
     });
 }
 
