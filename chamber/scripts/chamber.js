@@ -3,6 +3,22 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
+const banner = document.querySelector('.bannerClose');
+
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+    if (weekdayValue != 1 || weekdayValue != 2 || weekdayValue != 3) {
+        document.querySelector('.bannerClose').style.display="none"
+        document.querySelector('.bannerText').style.display="none"
+        document.querySelector('.banner').style.display="none"
+    }
+
+
+banner.addEventListener("click", () => {
+    document.querySelector('.bannerClose').closest (".banner").style.display="none";
+});
+
+
 async function apiFetch() {
     try {
         const response = await fetch(url);

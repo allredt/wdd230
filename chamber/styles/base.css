@@ -404,3 +404,30 @@ form label.top input:required:valid{
 .list section:nth-child(even) {
 	background-color: white;
 }
+
+/*---------banner----------  */
+
+.banner{
+    margin:0;
+    background-color: #AAD4EA;
+    display: flex;
+    align-items: center;
+}
+
+.bannerContent{
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.bannerText{
+    flex-grow: 1;
+    line-height:1.4;
+}
+
+.bannerClose{
+    background-color: #AAD4EA;
+    border:none;
+    cursor: pointer;
+}
